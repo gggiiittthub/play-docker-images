@@ -1,6 +1,6 @@
 FROM tomcat 
 
-MAINTAINER "test <yanyuan904@163.com>"  
+MAINTAINER "test <aaa@163.com>"  
 
 ENV DIR_WEBAPP /usr/local/tomcat/webapps/ 
 
