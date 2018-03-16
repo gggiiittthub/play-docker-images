@@ -1,3 +1,3 @@
-FROM tomcat
+FROM nginx
 
-copy game/mario /usr/local/tomcat/webapps
+copy game/mario /usr/share/nginx/www
