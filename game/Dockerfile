@@ -1,4 +1,4 @@
-FROM hub.c.163.com/bingohuang/debian:163
+FROM debian
 
 MAINTAINER bingohuang <me@bingohuang.com>
 
