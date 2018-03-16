@@ -2,9 +2,7 @@ FROM tomcat
 
 MAINTAINER "test <aaa@163.com>"  
 
-ENV DIR_WEBAPP /usr/local/tomcat/webapps/ 
-
-ADD gouwuche.war $DIR_WEBAPP/gouwuche.war 
+ADD gouwuche.war /usr/local/tomcat/webapps/ 
 
 
 CMD ["catalina.sh", "run"]
