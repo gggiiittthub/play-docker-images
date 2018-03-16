@@ -6,7 +6,7 @@ ENV DIR_WEBAPP /usr/local/tomcat/webapps/ # 定义变量、后续会使用 ，�
 
 #RUN  rm -rf $DIR_WEBAPP/*   #删除webapp下所有文件，因为当前应用作为根应用
 
-ADD game/mario $DIR_WEBAPP/ROOT.war 
+ADD game/mario $DIR_WEBAPP/mario 
 
 #RUN  unzip $DIR_WEBAPP/ROOT.war  -d  $DIR_WEBAPP/ROOT/
 
