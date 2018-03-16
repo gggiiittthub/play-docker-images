@@ -4,6 +4,8 @@ MAINTAINER bingohuang <me@bingohuang.com>
 
 RUN apt-get update && apt-get install -y nginx
 
+RUN mkdir -p /usr/share/nginx/www
+
 COPY mario /usr/share/nginx/www
 
 EXPOSE 8080
