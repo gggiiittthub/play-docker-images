@@ -1,11 +1,3 @@
-FROM debian
-
-MAINTAINER bingohuang <me@bingohuang.com>
-
-RUN apt-get update && apt-get install -y nginx
-
-COPY docker-mario /usr/share/nginx/www
-
-EXPOSE 8080
-
-ENTRYPOINT ["nginx", "-g", "daemon off;"]
+FROM centos
+RUN echo "root:123456" | chpasswd 
+EXPOSE 22
